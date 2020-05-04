@@ -4,7 +4,7 @@
    
    <style>
       .header {
-         position: absolute;
+         position: relative;
          height: 120px;
          width: 100%;
          background: repeating-linear-gradient(
@@ -15,9 +15,11 @@
             #4f26c9 120px,
             #4f26c9 180px);
          color: white;
+         z-index: 1;
       }
       .header-pic {
          position: absolute;
+         z-index: 2;
          top: 25px;
          left: 20px;
          border-color: #e35214;
