@@ -4,12 +4,15 @@
    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
    <style>
       .header {
-         position: absolute;
+         position: relative;
          z-index: 1;
          height: 240px;
          width: 80%;
-         right: 0px;
-         border-radius: 50px;
+         left: 20px;
+         border-top-left-radius: 150px;
+         border-bottom-left-radius: 150px;
+         border-top-right-radius: 150px;
+         border-bottom-right-radius: 150px;
          background: repeating-linear-gradient(
             #30e3ff 0px,
             #30e3ff 80px,
@@ -20,19 +23,40 @@
          color: white;
       }
       .header-pic {
-         position: absolute;
+         position: relative;
          z-index: 2;
          left: 20px;
-         bottom: 30px;
+         top: 244px;
          border-color: #e35214;
          border-width: 5px;
          border-radius: 50%;
          border-style: solid;
-         height: 240px;
-         width: 240px;
+         height: 230px;
+         width: 230px;
       }
-      .header-text {
+      .header-font {
          font-family: 'Staatliches', cursive;
+      }
+      .header-title {
+         position: relative;
+         left: 250px;
+         top: 4px;
+         font-size: 60px;
+         color: #e35214;
+      }
+      .header-aspiration {
+         position: relative;
+         font-size: 40px;
+         color: black;
+         bottom: 53px;
+         left: 6px;
+      }
+      .header-journey {
+         position: relative;
+         color: rgb(80, 71, 71);
+         font-size: 20px;
+         bottom: 63px;
+         left: 6px;
       }
    </style>
    
@@ -44,7 +68,9 @@
 <img class="header-pic" src="https://lh3.googleusercontent.com/EPMUK8snO3UGLBYndD7z8VWxxr5te1qwNDgu0QqlENlTlFmiF_aZi-wosF4muLM5XPP8NkNCAd2cKLMowyunEZ9iZ3yH-W5pxciiusUsRTaH80eOQBYhgdq3U-IrwsJBbtNXO9eN8Y7D502yYz3CeH_VrYIkKl-EDGOKiAhZJWn9vKSRhdegC8dPpKtAOk_pNFwHHwiT-gMuibo_xex0ar42TwS7d9JJwD0NuygQluzLEtp48rBVXXsV9C745po1z0j8eiwERl_BHjwY4gXVl-TVX9sWybz5_1vzqXiu5ORZu1grE_SetwYFu-wnNjj1bD8LwgvQm0gl-gmesxcTLIjwzckR53EHtnn8WrkTVu1FOrVhKYg-oMGyKOwkxrvMrjpTatxTmR6wm7i4tvYBrHl_1LUEB7GxEfMZTnay9BIjMtwbT2_1zJPgQbAwbUNIbrgzDK-_9uMel9T-8GhbRJ_d78eONluZ0lQUwllCaIGzEOVYA3LRxoqfyMoMpDFw-isGkLo08u-j8QqzgqpRFAoNjv6rL8ScfhUzLjMaEdvdu8fUk46UXJaT2f674DEFFf-VtEnLsyPx8SPqk-XXklaupeiiGz9CnYwgM3zpSLhd3tL28dapYmTsn_7yv1CCpufAHFLTdhZe7YhUEbXdtM5CEFbBzXzmP_6tN0ZKUVyQ8FLIlLQZ4a0TZsvDzdoaBNHfkx250_35MgXO9Mlx4nkluCerSCpU8DMX0RWwvKlih0QoxEliaQ=s1182-no" alt="headshot">
  
   <div class="header">
-  <div class="header-text">Jon Grush, Professional Techie</p>
+      <div class="header-font header-title">Jon Grush</p>
+         <div class="header-aspiration">Aspiring Tech Professional</div>
+            <div class="header-journey">Journey begins 4.5.2019</div>
    </div>
    
 </body>
