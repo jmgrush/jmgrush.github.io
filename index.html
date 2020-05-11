@@ -1,17 +1,14 @@
 <!DOCTYPE html>
 <!-- fixed menu bar, get Kayla's slack, projects/hobbies (basic video editing), life highlights (uncle, Spieth background), showcase some skill (animation)-->
+<!-- * {outline: 1px solid red;outline-offset: -1px;}-->
 <head>
    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
    <style>
-      * {
-         outline: 1px solid red;
-         outline-offset: -1px;
 
-      }
       .header {
-         position: absolute;
+         position: relative;
          height: 240px;
-         width: 98%;
+         width: 100%;
          border-top-left-radius: 150px;
          border-bottom-left-radius: 150px;
          border-top-right-radius: 10px;
@@ -26,7 +23,7 @@
          color: white;
       }
       .header-pic {
-         position: relative;
+         position: absolute;
          border-color: #db420b;
          border-width: 5px;
          border-radius: 50%;
@@ -36,12 +33,10 @@
       }
       .header-text {
          font-family: 'Staatliches', cursive;
-         position: relative;
          left: 250px;
       }
       .header-title {
-         position: relative;
-         bottom: 240px;
+         position: absolute;
          right: 5px;
          font-size: 60px;
          color: #db420b;
@@ -66,10 +61,10 @@
          float: left;
          color: white;
          text-align: center;
-         font-size: 30px;
+         font-size: 33px;
          padding: 12px;
          right: 12px;
-         top: 15px;
+         top: 17px;
          text-decoration: none;
       }
       .topnav a:hover {
@@ -84,7 +79,15 @@
          position: relative; 
          color: black;
          right: 240px;
-         bottom: 20px;
+         bottom: 25px;
+         font-size: 20px;
+         font-family: Arial, Helvetica, sans-serif;
+      }
+      ul {
+         position: relative; 
+         color: black;
+         right: 260px;
+         bottom: 25px;
          font-size: 20px;
          font-family: Arial, Helvetica, sans-serif;
       }
@@ -98,7 +101,7 @@
    <img class="header-pic" src="https://lh3.googleusercontent.com/EPMUK8snO3UGLBYndD7z8VWxxr5te1qwNDgu0QqlENlTlFmiF_aZi-wosF4muLM5XPP8NkNCAd2cKLMowyunEZ9iZ3yH-W5pxciiusUsRTaH80eOQBYhgdq3U-IrwsJBbtNXO9eN8Y7D502yYz3CeH_VrYIkKl-EDGOKiAhZJWn9vKSRhdegC8dPpKtAOk_pNFwHHwiT-gMuibo_xex0ar42TwS7d9JJwD0NuygQluzLEtp48rBVXXsV9C745po1z0j8eiwERl_BHjwY4gXVl-TVX9sWybz5_1vzqXiu5ORZu1grE_SetwYFu-wnNjj1bD8LwgvQm0gl-gmesxcTLIjwzckR53EHtnn8WrkTVu1FOrVhKYg-oMGyKOwkxrvMrjpTatxTmR6wm7i4tvYBrHl_1LUEB7GxEfMZTnay9BIjMtwbT2_1zJPgQbAwbUNIbrgzDK-_9uMel9T-8GhbRJ_d78eONluZ0lQUwllCaIGzEOVYA3LRxoqfyMoMpDFw-isGkLo08u-j8QqzgqpRFAoNjv6rL8ScfhUzLjMaEdvdu8fUk46UXJaT2f674DEFFf-VtEnLsyPx8SPqk-XXklaupeiiGz9CnYwgM3zpSLhd3tL28dapYmTsn_7yv1CCpufAHFLTdhZe7YhUEbXdtM5CEFbBzXzmP_6tN0ZKUVyQ8FLIlLQZ4a0TZsvDzdoaBNHfkx250_35MgXO9Mlx4nkluCerSCpU8DMX0RWwvKlih0QoxEliaQ=s1182-no" alt="headshot">
       <div class="header-text header-title">Jon Grush
          <div class="header-aspiration">Aspiring Tech Professional</div>
-             <div class="header-journey">Journey begins 4.5.2019</div>
+             <div class="header-journey">Improving since 4.5.2019</div>
                <div class="topnav">
                   <a class="active" href="#About-Me">About Me</a>
                   <a href="#Experience">Experience</a>
@@ -107,20 +110,31 @@
    </div>
 <br>
 <h1 id="About-Me">About Me</h1>
-<p>Coming Soon</p>
-<br>
-<br>
+<ul>
+   <li>Maybe text vs bullets</li>
+   <li>Lover of challenges</li>
+   <li>Problem Solver</li>
+   <li>Relevant hobbies</li>
+   <li>Etc. Who am I as a person, relative to the career</li>
+</ul>
 <h1 id="Experience">Experience</h1>
-<p>Coming Soon, add courses</p>
-<br>
-<br>
+<ul>
+   <li>Courses completed</li>
+   <li>Relevant job experience</li>
+   <li>Etc. Who am I as a professional, relative to career</li>
+</ul>
 <h1 id="Projects">Projects</h1>
-<p>Coming Soon</p>
-<br>
-<br>
-<br>
+<ul>
+   <li>Examples of any work created</li>
+   <li>GitHub, HackerRank, etc</li>
+</ul>
 <h1 id="Goals">Goals</h1>
-<p>Coming Soon</p>
+<ul>
+   <li>Types of jobs now</li>
+   <li>Types of jobs down the road</li>
+   <li>What do I want out of an employer</li>
+   <li>What can I contribute to an org</li>
+</ul>
 <br>
 <br>
 <br>
